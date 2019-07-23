@@ -4,8 +4,10 @@ let value = Object.values(obj)
 
 let name = 'domhnall flopwiki fiopwk github';
 
-function cumulator () {keys.forEach (function(k, v) { if (name .toUpperCase() .includes(k)) {
-  console.log ( 'If string has',name .toUpperCase() .split(k).length - 1, k, 'and', k, '=', value[v],'then', name .toUpperCase() .split(k).length - 1,'*',value[v],'=', (name .toUpperCase() .split(k).length - 1) * value[v]) };})
+function cumulator () {
+  keys.forEach (function(k, v) { if (name .toUpperCase() .includes(k)) {
+  console.log ( 'If string has',name .toUpperCase() .split(k).length - 1, k, 'and', k, '=', value[v],'then', 
+  name .toUpperCase() .split(k).length - 1,'*',value[v],'=', (name .toUpperCase() .split(k).length - 1) * value[v]) };})
   };
 
 cumulator();
