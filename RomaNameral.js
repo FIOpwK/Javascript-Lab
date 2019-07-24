@@ -6,10 +6,10 @@ let name = 'xxxym'
 let score = 0;
 
 //using forEach() loop
-let test = function subScore(){
-  key .forEach(function(k, v) {
+let test = function subScore(){ key .forEach(function(k, v) {
     if (name .toUpperCase() .includes(k)) { 
-      console.log ('there are',name .toUpperCase() .split(k) .length - 1, k, 'in', name ,'of', value[v],'for', (name .toUpperCase() .split(k) .length - 1) * value[v], 'pts');
+      console.log ('there are',name .toUpperCase() .split(k) .length - 1, k, 'in', name ,'of', value[v],'for', 
+                   (name .toUpperCase() .split(k) .length - 1) * value[v], 'pts');
       total = score += (name .toUpperCase() .split(k) .length - 1) * value[v]
     
     }
